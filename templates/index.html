@@ -1,22 +1,90 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Hackathon2022</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <!-- CSS only --> 
+    <link rel="stylesheet" href="../static/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/Footer-Dark.css">
+    <link rel="stylesheet" href="../static/css/Header-Blue.css">
+    <link rel="stylesheet" href="../static/css/Highlight-Blue.css">
+    <link rel="stylesheet" href="../static/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="../static/css/Navigation-with-Button.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button">
-        <div class="container"><a class="navbar-brand" href="#">PNP ITMS</a><button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div id="navcol-1" class="collapse navbar-collapse">
+    <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button" style="color: var(--bs-blue);background: var(--bs-gray-100);filter: brightness(87%) contrast(131%);opacity: 0.91;">
+        <div class="container"><a class="navbar-brand" href="#">PNP ITMS</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon" style="color: var(--bs-blue);"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Report</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                </ul><span class="navbar-text actions"><a class="btn btn-light action-button" role="button" href="#">Log In as Admin<br /></a></span>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: var(--bs-blue);">Report</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" style="color: var(--bs-blue);">About</a></li>
+                </ul><span class="navbar-text actions"> <a class="btn btn-light action-button" role="button"
+                    href="login.html"
+                    style="background: var(--bs-blue);">Log in as Admin</a></span>
             </div>
         </div>
     </nav>
+    <header class="header-blue">
+        <div class="hero">
+            <div class="row">
+                <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                    <h1>Scam Prevention and&nbsp; Investigation</h1>
+                    <p class="summary">This website is designed to prevent and take action with regards to the scamming crimes which are prevalent in the Philippines.<br></p><button class="btn btn-light btn-lg action-button" type="button">About Us</button>
+                </div>
+                <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+                    <div class="phone-mockup"><img class="device" src="../static/assets/pnp-itms.png">
+                        <div class="screen"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </header>
+        <section class="highlight-clean">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center">Report a Phone Number</h2>
+                    <p class="text-center"><br>This website is designed to prevent and take action with regards to the scamming crimes which are prevalent in the Philippines.<br><br></p>
+                </div>
+                <div class="buttons"><a class="btn btn-primary" role="button" href="report.html">Report</a></div>
+            </div>
+        </section>
+        <footer class="footer-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Information Technology Management Service</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+                    </div>
+                    <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+                </div>
+                <p class="copyright">Company Name © 2022</p>
+            </div>
+        </footer>
+    
+    <script src="..//static/js/bootstrap.min.js"></script>
 </body>
 
 </html>

@@ -12,5 +12,4 @@ def index():
 def test():
     return render_template('index2.html')
 
-
 app.run(host="localhost", debug=True)

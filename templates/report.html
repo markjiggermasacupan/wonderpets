@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Hackathon2022</title>
+  <!-- CSS only -->
+  <link rel="stylesheet" href="../static/fonts/ionicons.min.css">
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../static/css/Footer-Dark.css">
+  <link rel="stylesheet" href="../static/css/Header-Blue.css">
+  <link rel="stylesheet" href="../static/css/Highlight-Blue.css">
+  <link rel="stylesheet" href="../static/css/Highlight-Clean.css">
+  <link rel="stylesheet" href="../static/css/Navigation-with-Button.css">
+  <link rel="stylesheet" href="../static/css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 </head>
+
 <body>
-    
+  <nav class="navbar navbar-light navbar-expand-lg navigation-clean-button" style="color: var(--bs-blue);
+              background: var(--bs-gray-100);filter: brightness(87%) contrast(131%);opacity: 0.91;">
+    <div class="container"><a class="navbar-brand" href="#">PNP ITMS</a>
+          <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+            <span class="visually-hidden">Toggle navigation</span>
+            <span class="navbar-toggler-icon" style="color: var(--bs-blue);"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link active" href="#" style="color: var(--bs-blue);">Report</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" style="color: var(--bs-blue);">About</a></li>
+            </ul>
+            <span class="navbar-text actions">
+                <a class="btn btn-light action-button" role="button" href="login.html" 
+                  cstyle="background: var(--bs-blue);">Log in as Admin
+                </a>
+            </span><br>
+        </div>
+    </div>
+  </nav>
+  <div class="tagline">
+    <h1 class="line"> Be Part of our Operation <br> Help Us by reporting Malicious Phone Number of Scammers.</h1>
+  </div>
+  <div class="report-card" class="card border-primary mb-3" style="max-width: 35rem; margin-left: 30%; margin-top: 1%;">
+    <form>
+      <div class="form-group" style="margin-bottom: 10px;">
+        <label>Enter your Email address</label>
+        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Enter the Malicious Phone Number</label>
+        <input type="text" class="form-control" id="phonenumber" placeholder="Enter the Malicious Phone number">
+      </div>
+      <br>
+      <div class="form-group">
+        <label>Reason for Report</label>
+        <input type="text" class="form-control" id="report" placeholder="Enter your Reason for Reporting this person">
+      </div>
+      <div class="form-group">
+        <br>
+        <label>Input your evidence/screenshot</label><br>
+        <input type="file" class="form-control-file" id="evidence">
+      </div>
+      <br>
+      <br>
+      <button type="submit" class="btn btn-primary">Submit Report</button>
+    </form>
+  </div>
 </body>
+
 </html>
