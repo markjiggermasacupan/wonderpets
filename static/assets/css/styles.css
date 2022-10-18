@@ -1,0 +1,15 @@
+.report-card {
+    margin: 50px;
+    background-color: whitesmoke;
+    border: 1px solid blue;
+    padding: 30px;
+    width: 650px;
+    height: 475px;
+    
+}
+.tagline {
+    margin: 50px;
+    padding: 15px;
+    color: var(--bs-blue);
+
+}
