@@ -13,3 +13,9 @@
     color: var(--bs-blue);
 
 }
+
+
+.img-fluid {
+    max-width: 20%;
+
+}
