@@ -31,10 +31,17 @@
       </div>
   </nav>
     <form id="login-form" onsubmit="return login()">
-      <h1>LOGIN</h1>
+      <h1><b>LOGIN</b></h1>
       <input type="username" placeholder="Username" name="username" required/>
       <input type="password" placeholder="Password" name="password" required/>
-      <input type="submit" value="Sign In"/>
+      <a href="dashboard.html">
+        <input type="submit" onClick="myFunction()"/>
+        <script>
+          function myFunction() {
+            window.location.href="dashboard.html";
+          }
+        </script>
+      </a>
     </form>
   </body>
 </html>
